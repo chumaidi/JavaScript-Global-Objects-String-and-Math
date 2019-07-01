@@ -17,7 +17,6 @@ console.log(text[text.length - 1])
 let say = `Hey there!`
 
 alert(say[1000])
-alert(say.charAt(1000)) 
 for (let char of `Hey there!`) {
   alert(char) 
 }
@@ -58,7 +57,7 @@ console.log('Hey there'.includes('Bye'))
 
 console.log('How'.includes('How')) 
 console.log('How'.includes('How', 3)) 
-console.parasite trailerlog('Going'.startsWith('Goi')) 
+console.log('Going'.startsWith('Goi')) 
 console.log('Going'.endsWith('ing')) 
 
 //Special characters
